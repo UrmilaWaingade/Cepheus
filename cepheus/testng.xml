@@ -10,6 +10,7 @@
        <class name="testscripts.TC001"/> 
        <class name="testscripts.TC002"/> 
       <class name="testscripts.TC003"/> 
+     <!--   <class name="testscripts.TestCaseNew"/> -->
     </classes>
   </test> 
   <!-- Test -->
