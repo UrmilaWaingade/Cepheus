@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52495" started-at="2021-10-01T22:18:20 CEST" finished-at="2021-10-01T22:19:12 CEST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="52495" started-at="2021-10-01T22:18:20 CEST" finished-at="2021-10-01T22:19:12 CEST">
+      <class name="testscripts.TC003">
+        <test-method status="PASS" signature="openApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TC003@12cdcf4]" name="openApp" is-config="true" duration-ms="5104" started-at="2021-10-01T22:18:53 CEST" finished-at="2021-10-01T22:18:58 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.skillrary.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:testscripts.TC003@12cdcf4]" name="testCase3" duration-ms="10772" started-at="2021-10-01T22:18:58 CEST" description="To verify twitter login page should display" finished-at="2021-10-01T22:19:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testscripts.TC003@12cdcf4]" name="closeApp" is-config="true" duration-ms="3925" started-at="2021-10-01T22:19:08 CEST" finished-at="2021-10-01T22:19:12 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:testscripts.TC003@12cdcf4]" name="logout" is-config="true" duration-ms="0" started-at="2021-10-01T22:19:08 CEST" finished-at="2021-10-01T22:19:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase3 status=SUCCESS method=TC003.testCase3()[pri:0, instance:testscripts.TC003@12cdcf4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testscripts.TC003 -->
+      <class name="testscripts.TC001">
+        <test-method status="PASS" signature="openApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TC001@7113b13f]" name="openApp" is-config="true" duration-ms="7870" started-at="2021-10-01T22:18:20 CEST" finished-at="2021-10-01T22:18:28 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.skillrary.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.TC001@7113b13f]" name="test" duration-ms="7924" started-at="2021-10-01T22:18:28 CEST" description="To verify item is added to cart" finished-at="2021-10-01T22:18:36 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:testscripts.TC001@7113b13f]" name="logout" is-config="true" duration-ms="1" started-at="2021-10-01T22:18:36 CEST" finished-at="2021-10-01T22:18:36 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TC001.test()[pri:0, instance:testscripts.TC001@7113b13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testscripts.TC001@7113b13f]" name="closeApp" is-config="true" duration-ms="1015" started-at="2021-10-01T22:18:36 CEST" finished-at="2021-10-01T22:18:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscripts.TC001 -->
+      <class name="testscripts.TC002">
+        <test-method status="PASS" signature="openApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TC002@25af5db5]" name="openApp" is-config="true" duration-ms="4169" started-at="2021-10-01T22:18:37 CEST" finished-at="2021-10-01T22:18:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.skillrary.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:testscripts.TC002@25af5db5]" name="testCase2" duration-ms="10877" started-at="2021-10-01T22:18:41 CEST" description="To verify facebook login page should display" finished-at="2021-10-01T22:18:52 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:testscripts.TC002@25af5db5]" name="logout" is-config="true" duration-ms="1" started-at="2021-10-01T22:18:52 CEST" finished-at="2021-10-01T22:18:52 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase2 status=SUCCESS method=TC002.testCase2()[pri:0, instance:testscripts.TC002@25af5db5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testscripts.TC002@25af5db5]" name="closeApp" is-config="true" duration-ms="797" started-at="2021-10-01T22:18:52 CEST" finished-at="2021-10-01T22:18:53 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscripts.TC002 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="implicit" value="20"/>
+  <parameter name="appUrl" value="https://www.skillrary.com/"/>
+  <parameter name="Explicit" value="20"/>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testscripts.TC001">
+        <methods>
+          <include name="closeApp"/>
+          <include name="logout"/>
+          <include name="openApp"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testscripts.TC001 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
